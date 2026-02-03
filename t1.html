@@ -1,0 +1,46 @@
+<div class="button-container">
+        <!-- Navigation Buttons -->
+		
+        <button class="cta-button" onclick="f1()">About Us</button>
+		<button class="cta-button" onclick="f2()">Features</button>
+        <button class="cta-button" onclick="f3()">Courses</button>
+        <button class="cta-button"	 onclick="f4()">Student Testimonials</button>
+		 <button class="cta-button" onclick="f5()">Gallery</button>
+        <button class="cta-button" onclick="f55()">Placements</button>
+		
+		<button class="cta-button" onclick="f56()">Faculty</button>
+        <button class="cta-button" onclick="f6()">Contact Us</button>
+    </div>
+<style>
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.cta-button {
+    font-size: 1em;
+    padding: 8px 16px;
+    background: #ffc107;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.cta-button:hover {
+    animation: flip 0.6s ease-in-out;
+}
+
+
+
+
+	
+	
+</style>
